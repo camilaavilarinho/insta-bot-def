@@ -17,8 +17,10 @@ session.login()
 #session.set_dont_like(['pizza', 'girl'])
 
 # do the actual liking
-#session.like_by_tags(['natgeo', 'world'], amount=100)
-session.follow_user_followers(['dublinveganhq'], amount=10, randomize=False)
+#session.set_do_follow(enabled=True, percentage=70)
+#session.like_by_tags(['vegan'], amount=10)
+session.follow_by_tags(['veganfoodshare'], amount=10)
+#session.follow_user_followers(['friend1'], amount=10, randomize=False)
 
 # end the bot session
 session.end()
